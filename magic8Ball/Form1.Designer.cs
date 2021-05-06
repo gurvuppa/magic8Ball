@@ -1,7 +1,7 @@
 ﻿
 namespace magic8Ball
 {
-    partial class Form1
+    partial class Background
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace magic8Ball
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Background));
             this.pressButton = new System.Windows.Forms.Button();
             this.outputLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@ namespace magic8Ball
             this.label1.TabIndex = 3;
             this.label1.Text = "Think of a question";
             // 
-            // Form1
+            // Background
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,8 +82,8 @@ namespace magic8Ball
             this.Controls.Add(this.label1);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.pressButton);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Background";
+            this.Text = "Magic 8 Ball";
             this.ResumeLayout(false);
             this.PerformLayout();
 

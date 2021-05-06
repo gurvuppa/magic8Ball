@@ -21,13 +21,13 @@ using System.Windows.Forms;
 
 namespace magic8Ball
 {
-    public partial class Form1 : Form
+    public partial class Background : Form
     {
         Random randGen = new Random();
 
         int number = 0;
 
-        public Form1()
+        public Background()
         {
             InitializeComponent();
         }
